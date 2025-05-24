@@ -1,0 +1,65 @@
+alpine/k8s:1.29.10: Supports both AMD64 and ARM64 ✅
+alpine/socat: Supports both AMD64 and ARM64 ✅
+alpine/socat:1.7.4.4: Supports both AMD64 and ARM64 ✅
+amazon/aws-cli: Supports both AMD64 and ARM64 ✅
+docker.io/alpine/socat: Supports both AMD64 and ARM64 ✅
+docker.io/alpine/socat:1.7.4.4: Supports both AMD64 and ARM64 ✅
+docker.io/amazon/aws-cli: Supports both AMD64 and ARM64 ✅
+docker.io/bitnami/minio:2025.2.28-debian-12-r0: Supports both AMD64 and ARM64 ✅
+docker.io/bitnami/redis:7.4.2-debian-12-r4: Supports both AMD64 and ARM64 ✅
+docker.io/curlimages/curl:8.9.1: Supports both AMD64 and ARM64 ✅
+docker.io/grafana/grafana:11.6.0: Supports both AMD64 and ARM64 ✅
+docker.io/library/busybox:1.31.1: Supports both AMD64 and ARM64 ✅
+docker.io/library/memcached:1.5.5: Supports both AMD64 and ARM64 ✅
+docker.io/library/mysql:8.0.39: Supports both AMD64 and ARM64 ✅
+docker.io/openstackhelm/cinder:2023.1-ubuntu_jammy: No architecture information found ❌
+docker.io/openstackhelm/designate:2024.1-ubuntu_jammy: No architecture information found ❌
+docker.io/openstackhelm/glance:2023.1-ubuntu_jammy: No architecture information found ❌
+docker.io/openstackhelm/heat:2023.1-ubuntu_jammy: No architecture information found ❌
+docker.io/openstackhelm/heat:2024.1-ubuntu_jammy: No architecture information found ❌
+docker.io/openstackhelm/horizon:2023.2-ubuntu_jammy: No architecture information found ❌
+docker.io/openstackhelm/masakari:2023.1-ubuntu_jammy: No architecture information found ❌
+docker.io/openstackhelm/neutron:2023.1-ubuntu_jammy: No architecture information found ❌
+docker.io/openstackhelm/ovn:ubuntu_jammy: No architecture information found ❌
+docker.io/openstackhelm/placement:2023.1-ubuntu_jammy: No architecture information found ❌
+docker.io/openstackhelm/watcher:2024.1-ubuntu_jammy: No architecture information found ❌
+ghcr.io/openstack-exporter/openstack-exporter:1.7.0: Supports both AMD64 and ARM64 ✅
+mysql:8.0.39: Supports both AMD64 and ARM64 ✅
+quay.io/airshipit/barbican:2024.1-ubuntu_jammy: No architecture information found ❌
+quay.io/airshipit/kubernetes-entrypoint:latest-ubuntu_focal: No architecture information found ❌
+quay.io/airshipit/kubernetes-entrypoint:v1.0.0: Error fetching manifest
+quay.io/kiwigrid/k8s-sidecar:1.30.0: Supports both AMD64 and ARM64 ✅
+quay.io/platform9/alertmanager:0.26.0-pf9-865: No architecture information found ❌
+quay.io/platform9/blackbox-exporter:v0.23.0-pf9-392: No architecture information found ❌
+quay.io/platform9/deccaxon:2025.4.1-837: No architecture information found ❌
+quay.io/platform9/kplane-host-upg:2025.4.1-672: No architecture information found ❌
+quay.io/platform9/mysqld-exporter:v0.12.1-pf9-422: No architecture information found ❌
+quay.io/platform9/pf9-ceilometer-notification:2024.1-ubuntu_jammy: No architecture information found ❌
+quay.io/platform9/pf9-clarity:2025.4.1-809: No architecture information found ❌
+quay.io/platform9/pf9-forwarder:2025.4.1-785: No architecture information found ❌
+quay.io/platform9/pf9-gnocchi-api:2024.1-ubuntu-jammy: No architecture information found ❌
+quay.io/platform9/pf9-gnocchi-metricd:2024.1-ubuntu-jammy: No architecture information found ❌
+quay.io/platform9/pf9-gnocchi-statsd:2024.1-ubuntu-jammy: No architecture information found ❌
+quay.io/platform9/pf9-ha:2025.4.1-423: No architecture information found ❌
+quay.io/platform9/pf9-mors:2025.4.1-78: No architecture information found ❌
+quay.io/platform9/pf9-nginx:2025.4.1-1077-opencloud: No architecture information found ❌
+quay.io/platform9/pf9-notifications:2025.4.1-569: No architecture information found ❌
+quay.io/platform9/pf9-nova:2025.4.1-447: No architecture information found ❌
+quay.io/platform9/pf9-octavia:2025.4.1-219: No architecture information found ❌
+quay.io/platform9/pf9-pcd-ui:2025.4.1-333: No architecture information found ❌
+quay.io/platform9/pf9-rabbitmq:2025.4.1-583: No architecture information found ❌
+quay.io/platform9/pf9-remote-write-proxy:2025.4.1-269: No architecture information found ❌
+quay.io/platform9/pf9-resmgr:2025.4.1-1233-opencloud: No architecture information found ❌
+quay.io/platform9/pf9-sidekickserver:2025.4.1-461: No architecture information found ❌
+quay.io/platform9/pf9-terrakube-api:2025.4.0-1: No architecture information found ❌
+quay.io/platform9/pf9-terrakube-executor:2025.4.0-1: No architecture information found ❌
+quay.io/platform9/pf9-terrakube-registry:2025.4.0-1: No architecture information found ❌
+quay.io/platform9/pf9-vault:2025.4.1-822: No architecture information found ❌
+quay.io/platform9/pf9-watcher:2025.4.1-305: No architecture information found ❌
+quay.io/platform9/preference-store:2025.4.1-516: No architecture information found ❌
+quay.io/platform9/prometheus:2.47.2-pf9-865: No architecture information found ❌
+quay.io/platform9/sentinel:2025.4.1-552: No architecture information found ❌
+quay.io/platform9/vouch:2025.4.1-573: No architecture information found ❌
+quay.io/prometheus-operator/prometheus-config-reloader:v0.77.2: Supports both AMD64 and ARM64 ✅
+quay.io/prometheus/prometheus:v2.55.0: Supports both AMD64 and ARM64 ✅
+registry.k8s.io/ingress-nginx/controller:v1.12.1: Supports both AMD64 and ARM64 ✅

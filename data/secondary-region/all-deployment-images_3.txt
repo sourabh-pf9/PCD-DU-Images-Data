@@ -1,0 +1,348 @@
+Listing all images in deployments from namespace: sourabh-du-region-two
+------------------------------------------------------------
+Deployment: alertmanager
+  Container: alertmanager
+  Image:     quay.io/platform9/alertmanager:0.26.0-pf9-865
+
+Deployment: barbican-api
+  Container: barbican-api
+  Image:     quay.io/airshipit/barbican:2024.1-ubuntu_jammy
+  Container: socat19311
+  Image:     alpine/socat
+
+Deployment: blackbox-exporter
+  Container: blackbox-exporter
+  Image:     quay.io/platform9/blackbox-exporter:v0.23.0-pf9-392
+  Container: socat5555
+  Image:     alpine/socat:1.7.4.4
+
+Deployment: ceilometer-notification
+  Container: ceilometer-notification
+  Image:     quay.io/platform9/pf9-ceilometer-notification:2024.1-ubuntu_jammy
+
+Deployment: cinder-api
+  Container: cinder-api
+  Image:     docker.io/openstackhelm/cinder:2023.1-ubuntu_jammy
+  Container: socat18776
+  Image:     alpine/socat
+
+Deployment: cinder-scheduler
+  Container: cinder-scheduler
+  Image:     docker.io/openstackhelm/cinder:2023.1-ubuntu_jammy
+
+Deployment: clarity
+  Container: clarity
+  Image:     quay.io/platform9/pf9-clarity:2025.4.1-809
+
+Deployment: designate-api
+  Container: designate-api
+  Image:     docker.io/openstackhelm/designate:2024.1-ubuntu_jammy
+
+Deployment: designate-central
+  Container: designate-central
+  Image:     docker.io/openstackhelm/designate:2024.1-ubuntu_jammy
+
+Deployment: designate-producer
+  Container: designate-producer
+  Image:     docker.io/openstackhelm/designate:2024.1-ubuntu_jammy
+
+Deployment: forwarder
+  Container: forwarder
+  Image:     quay.io/platform9/pf9-forwarder:2025.4.1-785
+  Container: socat3021
+  Image:     alpine/socat:1.7.4.4
+  Container: socat3011
+  Image:     alpine/socat:1.7.4.4
+  Container: socat8083
+  Image:     alpine/socat:1.7.4.4
+  Container: socat15395
+  Image:     alpine/socat:1.7.4.4
+  Container: socat13020
+  Image:     alpine/socat:1.7.4.4
+  Container: socat18023
+  Image:     alpine/socat:1.7.4.4
+  Container: socat18031
+  Image:     alpine/socat:1.7.4.4
+
+Deployment: glance-api
+  Container: glance-api
+  Image:     docker.io/openstackhelm/glance:2023.1-ubuntu_jammy
+  Container: socat19292
+  Image:     alpine/socat
+
+Deployment: gnocchi-api
+  Container: gnocchi-api
+  Image:     quay.io/platform9/pf9-gnocchi-api:2024.1-ubuntu-jammy
+
+Deployment: gnocchi-metricd
+  Container: gnocchi-metricd
+  Image:     quay.io/platform9/pf9-gnocchi-metricd:2024.1-ubuntu-jammy
+
+Deployment: gnocchi-statsd
+  Container: gnocchi-statsd
+  Image:     quay.io/platform9/pf9-gnocchi-statsd:2024.1-ubuntu-jammy
+
+Deployment: grafana
+  Container: grafana-sc-dashboard
+  Image:     quay.io/kiwigrid/k8s-sidecar:1.30.0
+  Container: grafana-sc-datasources
+  Image:     quay.io/kiwigrid/k8s-sidecar:1.30.0
+  Container: grafana
+  Image:     docker.io/grafana/grafana:11.6.0
+
+Deployment: hamgr
+  Container: hamgr
+  Image:     quay.io/platform9/pf9-ha:2025.4.1-423
+  Container: socat19083
+  Image:     alpine/socat
+
+Deployment: heat-api
+  Container: heat-api
+  Image:     docker.io/openstackhelm/heat:2023.1-ubuntu_jammy
+
+Deployment: heat-cfn
+  Container: heat-cfn
+  Image:     docker.io/openstackhelm/heat:2023.1-ubuntu_jammy
+
+Deployment: heat-engine
+  Container: heat-engine
+  Image:     docker.io/openstackhelm/heat:2023.1-ubuntu_jammy
+
+Deployment: horizon
+  Container: horizon
+  Image:     docker.io/openstackhelm/horizon:2023.2-ubuntu_jammy
+
+Deployment: ingress-nginx-controller
+  Container: controller
+  Image:     registry.k8s.io/ingress-nginx/controller:v1.12.1
+  Container: socat444
+  Image:     alpine/socat:1.7.4.4
+
+Deployment: masakari-api
+  Container: masakari-api
+  Image:     docker.io/openstackhelm/masakari:2023.1-ubuntu_jammy
+
+Deployment: masakari-engine
+  Container: masakari-engine
+  Image:     docker.io/openstackhelm/masakari:2023.1-ubuntu_jammy
+
+Deployment: memcached
+  Container: memcached
+  Image:     docker.io/library/memcached:1.5.5
+
+Deployment: mors
+  Container: mors
+  Image:     quay.io/platform9/pf9-mors:2025.4.1-78
+
+Deployment: mysql
+  Container: utils
+  Image:     amazon/aws-cli
+  Container: mysql
+  Image:     mysql:8.0.39
+  Container: socat13306
+  Image:     alpine/socat:1.7.4.4
+
+Deployment: mysqld-exporter
+  Container: mysqld-exporter
+  Image:     quay.io/platform9/mysqld-exporter:v0.12.1-pf9-422
+  Container: socat3306
+  Image:     alpine/socat:1.7.4.4
+
+Deployment: neutron-server
+  Container: neutron-server
+  Image:     docker.io/openstackhelm/neutron:2023.1-ubuntu_jammy
+  Container: socat19696
+  Image:     alpine/socat
+  Container: socat8030
+  Image:     alpine/socat
+
+Deployment: nova-api-metadata
+  Container: nova-api
+  Image:     quay.io/platform9/pf9-nova:2025.4.1-447
+  Container: socat18775
+  Image:     alpine/socat
+
+Deployment: nova-api-osapi
+  Container: nova-osapi
+  Image:     quay.io/platform9/pf9-nova:2025.4.1-447
+  Container: socat18774
+  Image:     alpine/socat
+
+Deployment: nova-conductor
+  Container: nova-conductor
+  Image:     quay.io/platform9/pf9-nova:2025.4.1-447
+
+Deployment: nova-scheduler
+  Container: nova-scheduler
+  Image:     quay.io/platform9/pf9-nova:2025.4.1-447
+
+Deployment: octavia-api
+  Container: octavia-api
+  Image:     quay.io/platform9/pf9-octavia:2025.4.1-219
+  Container: octavia-driver-agent
+  Image:     quay.io/platform9/pf9-octavia:2025.4.1-219
+  Container: socat6641
+  Image:     alpine/socat
+  Container: socat6642
+  Image:     alpine/socat
+
+Deployment: openstackexporter
+  Container: openstack-exporter
+  Image:     ghcr.io/openstack-exporter/openstack-exporter:1.7.0
+
+Deployment: ovn-northd
+  Container: northd
+  Image:     docker.io/openstackhelm/ovn:ubuntu_jammy
+
+Deployment: pf9-nginx
+  Container: pf9-nginx
+  Image:     quay.io/platform9/pf9-nginx:2025.4.1-1077-opencloud
+  Container: socat19080
+  Image:     alpine/socat:1.7.4.4
+
+Deployment: pf9-notifications
+  Container: pf9-notifications
+  Image:     quay.io/platform9/pf9-notifications:2025.4.1-569
+  Container: socat8898
+  Image:     alpine/socat:1.7.4.4
+  Container: socat5672
+  Image:     alpine/socat:1.7.4.4
+  Container: socat8080
+  Image:     alpine/socat:1.7.4.4
+
+Deployment: pf9-vault
+  Container: vault
+  Image:     quay.io/platform9/pf9-vault:2025.4.1-822
+  Container: socat18200
+  Image:     alpine/socat:1.7.4.4
+
+Deployment: placement-api
+  Container: placement-api
+  Image:     docker.io/openstackhelm/placement:2023.1-ubuntu_jammy
+  Container: socat18778
+  Image:     alpine/socat
+
+Deployment: preference-store
+  Container: preference-store
+  Image:     quay.io/platform9/preference-store:2025.4.1-516
+
+Deployment: prometheus
+  Container: prometheus
+  Image:     quay.io/platform9/prometheus:2.47.2-pf9-865
+  Container: socat8083
+  Image:     alpine/socat:1.7.4.4
+  Container: socat8085
+  Image:     alpine/socat:1.7.4.4
+  Container: socat3011
+  Image:     alpine/socat:1.7.4.4
+  Container: socat8086
+  Image:     alpine/socat:1.7.4.4
+  Container: socat9093
+  Image:     alpine/socat:1.7.4.4
+  Container: socat10254
+  Image:     alpine/socat:1.7.4.4
+  Container: socat9419
+  Image:     alpine/socat:1.7.4.4
+  Container: socat5001
+  Image:     alpine/socat:1.7.4.4
+  Container: socat8087
+  Image:     alpine/socat:1.7.4.4
+  Container: socat9104
+  Image:     alpine/socat:1.7.4.4
+  Container: socat9105
+  Image:     alpine/socat:1.7.4.4
+  Container: socat19090
+  Image:     alpine/socat:1.7.4.4
+
+Deployment: prometheusopenstack-server
+  Container: prometheusopenstack-server-configmap-reload
+  Image:     quay.io/prometheus-operator/prometheus-config-reloader:v0.77.2
+  Container: prometheusopenstack-server
+  Image:     quay.io/prometheus/prometheus:v2.55.0
+  Container: socat9091
+  Image:     alpine/socat:1.7.4.4
+
+Deployment: rabbitmq
+  Container: rabbitmq
+  Image:     quay.io/platform9/pf9-rabbitmq:2025.4.1-583
+  Container: socat5673
+  Image:     alpine/socat:1.7.4.4
+
+Deployment: remote-write-proxy
+  Container: remote-write-proxy
+  Image:     quay.io/platform9/pf9-remote-write-proxy:2025.4.1-269
+
+Deployment: resmgr
+  Container: resmgr
+  Image:     quay.io/platform9/pf9-resmgr:2025.4.1-1233-opencloud
+  Container: socat18083
+  Image:     alpine/socat:1.7.4.4
+  Container: socat8082
+  Image:     alpine/socat:1.7.4.4
+  Container: socat5672
+  Image:     alpine/socat:1.7.4.4
+  Container: socat15672
+  Image:     alpine/socat:1.7.4.4
+  Container: socat8080
+  Image:     alpine/socat:1.7.4.4
+  Container: socat3011
+  Image:     alpine/socat:1.7.4.4
+
+Deployment: sentinel
+  Container: sentinel
+  Image:     quay.io/platform9/sentinel:2025.4.1-552
+
+Deployment: serenity
+  Container: serenity
+  Image:     quay.io/platform9/pf9-pcd-ui:2025.4.1-333
+
+Deployment: sidekickserver
+  Container: sidekickserver
+  Image:     quay.io/platform9/pf9-sidekickserver:2025.4.1-461
+  Container: socat13010
+  Image:     alpine/socat:1.7.4.4
+
+Deployment: terrakube-api
+  Container: terrakube-api
+  Image:     quay.io/platform9/pf9-terrakube-api:2025.4.0-1
+
+Deployment: terrakube-executor
+  Container: terrakube-executor
+  Image:     quay.io/platform9/pf9-terrakube-executor:2025.4.0-1
+
+Deployment: terrakube-minio
+  Container: minio
+  Image:     docker.io/bitnami/minio:2025.2.28-debian-12-r0
+
+Deployment: terrakube-registry
+  Container: terrakube-registry
+  Image:     quay.io/platform9/pf9-terrakube-registry:2025.4.0-1
+
+Deployment: vouch-keystone
+  Container: vouch-keystone
+  Image:     quay.io/platform9/vouch:2025.4.1-573
+  Container: socat8080
+  Image:     alpine/socat:1.7.4.4
+
+Deployment: vouch-noauth
+  Container: vouch-noauth
+  Image:     quay.io/platform9/vouch:2025.4.1-573
+  Container: socat18558
+  Image:     alpine/socat:1.7.4.4
+  Container: socat28558
+  Image:     alpine/socat:1.7.4.4
+
+Deployment: watcher-api
+  Container: watcher-api
+  Image:     quay.io/platform9/pf9-watcher:2025.4.1-305
+
+Deployment: watcher-applier
+  Container: watcher-applier
+  Image:     quay.io/platform9/pf9-watcher:2025.4.1-305
+
+Deployment: watcher-decision-engine
+  Container: watcher-decision-engine
+  Image:     quay.io/platform9/pf9-watcher:2025.4.1-305
+  Container: nova-rpc
+  Image:     quay.io/platform9/pf9-nova:2025.4.1-447
+
